@@ -1,1 +1,39 @@
+# Day 1 – SQL Practice (Data Analyst Roadmap)
 
+This folder is your **Day 1 SQL mini-project**.
+
+You will practice on a **simple e-commerce dataset** with three tables:
+
+- `customers` – customer details
+- `orders` – orders placed by customers
+- `payments` – payments made for orders
+
+> **Assumed DB:** MySQL (or MariaDB).  
+> If you use PostgreSQL, you’ll need to tweak some syntax (like `AUTO_INCREMENT`, `CURDATE()`, `LIMIT`).
+
+---
+
+## Files
+
+- `practice.sql`  
+  Creates the database, tables, and inserts sample data.
+
+- `challenges.sql`  
+  Contains the **problem statements** as comments and **empty query blocks** for you to fill.
+
+- `solutions.sql`  
+  Same problems, but with **completed queries**.
+
+- `nots.md`  
+  (Day 1 notes) Short theory recap + key tricks you should remember.
+
+---
+
+## How to Use
+
+1. **Create DB + Sample Data**
+
+   Open your MySQL client (CLI, Workbench, DBeaver, etc.) and run:
+
+   ```sql
+   SOURCE /path/to/practice.sql;
